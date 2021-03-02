@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 3rem;
+}
+
+header h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.subtitle p:nth-child(1) {
+  padding-right: 10rem;
+  margin-bottom: 0;
+  color: darkcyan;
+}
+.subtitle p:nth-child(2) {
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 25rem;
+  color: cornflowerblue;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.mainOne {
+  margin-bottom: 2rem;
+  padding-right: 12rem;
+}
+
+.mainTwo {
+  margin-bottom: 2rem;
+}
+
+.mainTwo p:nth-child(2) {
+  padding-left: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mainTwo p:nth-child(3) {
+  padding-left: 12rem;
+  margin-bottom: 1rem;
+}
+.mainTwo p:nth-child(4) {
+  padding-left: 18rem;
+}
+
+.mainThree {
+  margin-bottom: 2rem;
+  padding-right: 12rem;
+}
+
+.mainThree p:nth-child(1) {
+  padding-left: 3rem;
+  margin-bottom: 0.5rem;
+}
+.mainThree p:nth-child(2) {
+  padding-left: 13rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-left: 17rem;
+  margin-bottom: 0.5rem;
+}
+
+.songs {
+  display: flex;
+  justify-content: center;
+  padding-left: 12rem;
+}
